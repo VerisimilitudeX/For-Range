@@ -7,7 +7,7 @@ pygame.init()
 # --- Window --- #
 number_of_circles = int(input("How many circles should there be? "))
 width = number_of_circles 
-window = pygame.display.set_mode([280, width])
+window = pygame.display.set_mode([width * 56, 150])
 
 # --- Variables --- #
 light_color = (200, 200, 255)
